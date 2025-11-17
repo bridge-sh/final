@@ -1,0 +1,288 @@
+header {
+  background-color: white;
+  /*change color*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem 2rem 4rem;
+  /*change size*/
+}
+
+header h1 {
+  font-size: 2rem;
+  /*change size*/
+  text-align: center;
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 18px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  padding: 1rem 0 2rem 2rem;
+  text-transform: uppercase;
+  display: block;
+  color: black;
+  /*change color*/
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FC6C85;
+  border-radius: 1rem;
+  /*change*/
+}
+
+main {
+  padding: 0 4rem;
+}
+
+main h2 {
+  font-size: 85px;
+  /*change size*/
+  text-align: center;
+  padding-bottom: 4rem;
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+}
+
+.about {
+  font-size: 24px;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-family: "Lato", sans-serif;
+}
+
+.intro {
+  padding-bottom: 8rem;
+  padding-top: 6rem;
+  line-height: 2rem;
+}
+
+.wrapper {
+  background-color: white;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 67.286% 32.714%;
+  gap: 1rem;
+}
+
+.grid2 {
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+}
+
+
+.grid-image img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  background-color: #ffd1df;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  font-size: 150%;
+  color: black;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+footer a:hover {
+  color: #F45082;
+}
+
+.bio {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 50%;
+  line-height: 2rem;
+}
+
+main h3 {
+  font-size: 48px;
+  padding-bottom: 2rem;
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+}
+
+main h4 {
+  font-size: 28px;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  font-family: "Freeman", sans-serif;
+  font-weight: 100;
+}
+
+.projects {
+  margin: 4rem auto 6rem auto;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  max-width: 50%;
+  line-height: 2rem;
+}
+
+.cover {
+  width: 100%;
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+.circleville-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 58.586% 41.425%;
+  gap: 1rem;
+}
+
+.circleville-grid img {
+  width: 100%;
+  display: block;
+}
+
+.circleville-grid2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 47.237% 52.763%;
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+  gap: 1rem;
+}
+
+.circleville-grid2 img {
+  width: 100%;
+  display: block;
+}
+
+.projects img {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+
+.pathfinder {
+  margin-bottom: 5rem;
+}
+
+.app {
+  width: 100%;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.vows-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.vows-grid img {
+  width: 100%;
+  display: block;
+}
+
+main video {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+
+@media (max-width: 499px) {
+
+  header {
+    background-color: white;
+    /*change color*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem .5rem;
+    /*change size*/
+  }
+
+  header h1 {
+    font-size: 2rem;
+    /*change size*/
+    text-align: center;
+    padding: 0 .5rem;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    display: block;
+    color: black;
+    /*change color*/
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #FC6C85;
+    border-radius: 1rem;
+    /*change*/
+  }
+
+  .wrapper {
+    background-color: white;
+    max-width: 2000px;
+  }
+
+  .grid {
+    padding: .5rem 2rem;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+  }
+
+  .grid2 {
+    padding: .5rem 2rem;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+  }
+
+
+  .grid-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
