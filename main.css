@@ -131,7 +131,7 @@ main h5 {
   margin-top: 2rem;
   margin-bottom: 6rem;
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   width: 50%;
   line-height: 2rem;
 }
@@ -341,14 +341,14 @@ main video {
     margin: 0 auto;
   }
 
-  main h2 {
-    font-size: 48px;
-    text-align: center;
-    padding-bottom: 2rem;
-    font-family: "Figree", sans-serif;
-    font-weight: 800;
-    line-height: 3rem;
-  }
+ main h2 {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  line-height: 3rem;
+}
 
   .about {
     font-size: 21px;
